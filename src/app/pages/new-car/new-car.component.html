@@ -1,0 +1,12 @@
+<p>new-car works!</p>
+<input type="text" placeholder="Volvo" #name>
+<input type="text" placeholder="2020" #year>
+<input type="text" placeholder="hybrid" #engine>
+<input type="text" placeholder="" #image>
+<button (click)="sendCar({
+    name: name.value,
+    year: year.value,
+    engine: engine.value,
+    image: image.value,
+    isFavourite: false
+    })">Add car</button>

@@ -1,0 +1,10 @@
+<p>car-list works!</p>
+<ul *ngIf="carList.length">
+    <li *ngFor="let car of carList">
+        <h2>{{ car.car }}</h2>
+        <h3>{{ car.car_model }}</h3>
+        <h4>{{ car.engine }}</h4>
+        <img src={{car.image}}  alt={{car.name}}>
+        <a routerLink="/car-list/{{car.id}}">More Info</a>
+    </li>
+</ul>

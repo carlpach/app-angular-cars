@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+li {
+    width: calc(25% - 10px);
+}
+
+img {
+    width: 100%;
+}
