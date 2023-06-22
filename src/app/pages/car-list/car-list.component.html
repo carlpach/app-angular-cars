@@ -1,13 +1,12 @@
-<p>car-list works!</p>
 
 <button routerLink="/add">Add New</button>
 
 <ul *ngIf="carList?.length">
     <li *ngFor="let car of carList">
+        <img src={{car.image}}  alt={{car.name}}>
         <h2>{{ car.name }}</h2>
         <h3>{{ car.model }}</h3>
         <h4>{{ car.year }}</h4>
-        <img src={{car.image}}  alt={{car.name}}>
-        <a routerLink="/car-list/{{car.id}}">More Info</a>
+        <a class="absolute" routerLink="/car-list/{{car.id}}">More Info</a>
     </li>
 </ul>
