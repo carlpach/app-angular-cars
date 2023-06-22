@@ -9,7 +9,7 @@ import { TypeCarsI } from "../../../models/cars.model";
 })
 
 export class CarListComponent implements OnInit {
-  carList!: any[];
+  carList!: TypeCarsI[];
 
   constructor(private api: ApiCarsService) {
 
@@ -21,7 +21,7 @@ export class CarListComponent implements OnInit {
       console.log("data get ------>");
       console.log(data);
       
-      this.carList = [...data.cars];
+      this.carList = [...data];
     })
   }
 

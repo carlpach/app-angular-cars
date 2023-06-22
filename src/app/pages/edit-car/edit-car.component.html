@@ -1,0 +1,20 @@
+<p>edit-car works!</p>
+
+<form [formGroup]="newCarForm" (ngSubmit)="editCarSubmit()" >
+    <input type="text" placeholder="model name" formControlName="name">
+    <input type="number" placeholder="year (yyyy)" formControlName="year">
+    <p *ngIf="(submitted && newCarForm?.get('year')?.hasError('maxLength'))">Solo acepta números</p>    
+    <input type="text" placeholder="color" formControlName="color">
+    <p *ngIf="(submitted && newCarForm?.get('color')!.hasError('required'))">this field is required</p>
+    <input type="text" placeholder="image" formControlName="image">
+    <button >Submit</button>
+</form>
+
+
+<div *ngIf="car" >
+    <h4>{{car.name}}</h4>
+    <h4>{{car.year}}</h4>
+    <h4>{{car.color}}</h4>
+    <img src={{car.image}}>
+
+</div>

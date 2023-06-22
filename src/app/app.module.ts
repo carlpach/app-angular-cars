@@ -13,6 +13,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { ApiCarsService } from "../services/cars.service";
 
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { EditCarComponent } from './pages/edit-car/edit-car.component';
 
 
 @NgModule({
@@ -23,12 +25,15 @@ import { HttpClientModule } from '@angular/common/http';
     CarDetailComponent,
     HomeComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    EditCarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
 
   ],
   providers: [ApiCarsService],  // Aquí proveemos nuestro servicio al módulo
