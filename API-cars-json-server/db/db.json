@@ -1,0 +1,232 @@
+{
+  "cars": [
+    {
+      "id": 4,
+      "name": "Jeep",
+      "model": "Compass",
+      "color": "Violet",
+      "year": 2012,
+      "car_vin": "4USBT33454L511606",
+      "price": "$2732.99",
+      "availability": false,
+      "image": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2023/01/13/16736108579176.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cupra El Born",
+      "model": "Lancer Evolution",
+      "color": "Purple",
+      "year": 2002,
+      "car_vin": "WAU2GBFCXDN339713",
+      "price": "$3849.47",
+      "availability": false,
+      "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/11/29/16381835566650.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cupra El Born",
+      "model": "Suburban",
+      "color": "Indigo",
+      "year": 2009,
+      "car_vin": "WAUSH98E96A592763",
+      "price": "$1252.30",
+      "availability": false
+    },
+    {
+      "id": 7,
+      "name": "Dodge",
+      "model": "Ram Van B350",
+      "color": "Yellow",
+      "year": 1994,
+      "car_vin": "KNADH4A37A6919967",
+      "price": "$1762.42",
+      "availability": true
+    },
+    {
+      "id": 8,
+      "name": "Isuzu",
+      "model": "Ascender",
+      "color": "Teal",
+      "year": 2004,
+      "car_vin": "5GTMNGEE8A8713093",
+      "price": "$1081.40",
+      "availability": true
+    },
+    {
+      "id": 9,
+      "name": "BMW",
+      "model": "6 Series",
+      "color": "Purple",
+      "year": 2008,
+      "car_vin": "5TDBY5G16DS675822",
+      "price": "$1258.99",
+      "availability": true
+    },
+    {
+      "id": 10,
+      "name": "Mitsubishi",
+      "model": "GTO",
+      "color": "Purple",
+      "year": 1994,
+      "car_vin": "JM1NC2PFXE0140518",
+      "price": "$3822.92",
+      "availability": false
+    },
+    {
+      "id": 11,
+      "name": "Mazda",
+      "model": "Mazda5",
+      "color": "Red",
+      "year": 2010,
+      "car_vin": "WAUNE78P18A342660",
+      "price": "$3963.20",
+      "availability": true
+    },
+    {
+      "id": 12,
+      "name": "Audi",
+      "model": "Q7",
+      "color": "Pink",
+      "year": 2012,
+      "car_vin": "WA1WYBFE2AD448505",
+      "price": "$1144.27",
+      "availability": true
+    },
+    {
+      "id": 13,
+      "name": "Mercedes-Benz",
+      "model": "SL-Class",
+      "color": "Aquamarine",
+      "year": 1989,
+      "car_vin": "4A4AP3AU8FE713946",
+      "price": "$1386.49",
+      "availability": true
+    },
+    {
+      "id": 14,
+      "name": "Volvo",
+      "model": "C70",
+      "color": "Red",
+      "year": 2012,
+      "car_vin": "WAUHGBFC9DN768366",
+      "price": "$1366.96",
+      "availability": true
+    },
+    {
+      "id": 15,
+      "name": "GMC",
+      "model": "Envoy XL",
+      "color": "Green",
+      "year": 2006,
+      "car_vin": "WA1AV74L67D649365",
+      "price": "$1221.46",
+      "availability": false
+    },
+    {
+      "id": 16,
+      "name": "GMC",
+      "model": "Vandura G3500",
+      "color": "Teal",
+      "year": 1996,
+      "car_vin": "1FMJK2A5XAE576485",
+      "price": "$1877.63",
+      "availability": true
+    },
+    {
+      "id": 17,
+      "name": "Cadillac",
+      "model": "CTS",
+      "color": "Pink",
+      "year": 2003,
+      "car_vin": "WAUVC68E02A369838",
+      "price": "$2646.55",
+      "availability": true
+    },
+    {
+      "id": 18,
+      "name": "BMW",
+      "model": "X5 M",
+      "color": "Mauv",
+      "year": 2012,
+      "car_vin": "WA1YD54B63N613712",
+      "price": "$2076.03",
+      "availability": true
+    },
+    {
+      "id": 19,
+      "name": "Dodge",
+      "model": "Viper",
+      "color": "Turquoise",
+      "year": 1999,
+      "car_vin": "WAUMF98P66A420495",
+      "price": "$1323.48",
+      "availability": true
+    },
+    {
+      "id": 20,
+      "name": "Ford",
+      "model": "Taurus",
+      "color": "Mauv",
+      "year": 2002,
+      "car_vin": "WAUUL58E15A338821",
+      "price": "$1801.89",
+      "availability": false
+    },
+    {
+      "name": "sdfdsf",
+      "year": "1234",
+      "color": "blue",
+      "price": "",
+      "availability": false,
+      "id": 21
+    },
+    {
+      "name": "sf",
+      "year": "dddd",
+      "color": "dddd",
+      "price": "",
+      "availability": false,
+      "id": 22
+    },
+    {
+      "name": "sdf",
+      "year": "2500",
+      "color": "sdfd",
+      "price": "",
+      "availability": false,
+      "id": 23
+    },
+    {
+      "name": "sdf",
+      "year": "dsdd",
+      "color": "dddd",
+      "price": "",
+      "availability": false,
+      "id": 24
+    },
+    {
+      "name": "sfsdfds",
+      "year": "3456",
+      "color": "gbrtzf",
+      "price": "",
+      "availability": false,
+      "id": 25
+    },
+    {
+      "name": "SDF",
+      "year": "DDDD",
+      "color": "SDFDF",
+      "price": "",
+      "availability": false,
+      "id": 26
+    },
+    {
+      "name": "sefsf",
+      "year": "were",
+      "color": "sdfdsf",
+      "price": "",
+      "availability": false,
+      "id": 27
+    }
+  ]
+}
